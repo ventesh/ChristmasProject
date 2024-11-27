@@ -552,7 +552,7 @@ const GetImage = localStorage.getItem('images');
 
 if (!text || !GetImage) {
     //Call the areate scene function
-    const scene = createScene();
+    const scene = createScene1();
 
     //Render the Scene
     engine.runRenderLoop(() => {
